@@ -5,7 +5,7 @@ layout: default
   <div class="eight columns">
     <div class="row">
       <div class="twelve columns">
-        <h3>{{page.title}}</h3>
+        <h3>{{site.baseurl}}{{page.title}}</h3>
         <div class="row">
           <div class="twelve columns">
             {{content}}
@@ -20,7 +20,7 @@ layout: default
     <ul class="disc">
       {% for post in site.related_posts limit: 10 %}
       <li>
-        <a href="{{post.url}}">{{post.title}}</a>
+        <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
       </li>
       {% endfor %}
     </ul>
