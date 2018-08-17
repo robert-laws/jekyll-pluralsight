@@ -2,8 +2,8 @@
 title: "Jekyll Practice Website"
 email: roblaws@me.com
 description: "A learning space for the Jekyll static site generator"
-baseurl: ""
-url: "http://robert-laws.com/jekyll-pluralsight"
+baseurl: "/jekyll-pluralsight"
+url: "http://robert-laws.com"
 twitter_username: roblaws1975
 github_username: robert-laws
 
