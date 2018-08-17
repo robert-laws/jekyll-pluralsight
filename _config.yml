@@ -1,0 +1,14 @@
+# jekyll site settings
+title: "Jekyll Practice Website"
+email: roblaws@me.com
+description: "A learning space for the Jekyll static site generator"
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: roblaws1975
+github_username: robert-laws
+
+# build settings
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /articles/:title
